@@ -21,3 +21,15 @@ To simulate a population with a beneficial exponential-like DFE and a deleteriou
 * sigma_d is the scale parameter of the deleterious DFE
 * beta_b is the steepness parameter of the beneficial DFE
 * beta_d is the steepness parameter of the deleterious DFE
+
+## Output
+
+Both types of simulation will output the following for each of the `num_samples` samples:
+* Generation: Generation at which the sample is measured
+* Avg log fitness: Average log fitness of the population at the sampled generation
+* Pi neutral: Pairwise heterozygosity of neutral mutations
+* Site frequency spectrum neutral: Neutral site frequency spectrum, computed using a sample from the population of size `sfs_sample_size`. 
+* Pi nonneutral: Pairwise heterozygosity of non-neutral mutations
+* Site frequency spectrum neutral: Non-neutral site frequency spectrum, computed using a sample from the population of size `sfs_sample_size`. 
+* Fixed fitness effects: Fitness effects of mutations which have fixed within the population since the last sampled generation.
+* Fixed arisal fits: Relative arisal fitnesses of lineages which have fixed within the population since the last sampled generation.
