@@ -16,7 +16,7 @@ To simulate a population with a single beneficial effect and a single deleteriou
 * sfs_sample_size is the sample size used for measuring the site frequency spectrum
 * num_samples is the number of roughly independent samples measured
 
-To simulate a population with a beneficial exponential-like DFE and a deleterious exponential-like DFE, run `./simulate N NUb NUd NUn sigma_b sigma_d beta_b beta_d sfs_sample_size num_samples`. Parameters are the same as above, except
+To simulate a population with a beneficial exponential-like DFE and a deleterious exponential-like DFE, run `./simulate_2explike N NUb NUd NUn sigma_b sigma_d beta_b beta_d sfs_sample_size num_samples`. Parameters are the same as above, except
 * sigma_b is the scale parameter of the beneficial DFE
 * sigma_d is the scale parameter of the deleterious DFE
 * beta_b is the steepness parameter of the beneficial DFE
