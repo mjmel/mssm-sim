@@ -1,5 +1,5 @@
 /*  Simulates population with specified N, U \rho(s) and records fitness distribution
-Code by Matthew Melissa (matthewmelissa@gmail.com) and Ivana Cvijovic (icvijovic@fas.harvard.edu), inspired by Ben Good's code.
+Code is derived from Ivana Cvijovic (icvijovic@fas.harvard.edu) and Ben Good's code (https://github.com/icvijovic/background-selection).
 
 SUGGESTED COMPILATION:
 bash compile.sh
