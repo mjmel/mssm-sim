@@ -1,5 +1,7 @@
 # Simulation Code
 
+This simulation code is derived from simulation code written by Ivana Cvijovic and Ben Good (https://github.com/icvijovic/background-selection).
+
 ## Installation
 
 To compile, navigate to the current directory and run `bash compile.sh`.
