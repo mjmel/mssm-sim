@@ -1,6 +1,6 @@
 # Simulation Code
 
-This simulation code is derived from simulation code written by Ivana Cvijovic and Ben Good (https://github.com/icvijovic/background-selection).
+This simulation code is derived from simulation code written by Ivana Cvijović and Ben Good (https://github.com/icvijovic/background-selection).
 
 ## Installation
 
